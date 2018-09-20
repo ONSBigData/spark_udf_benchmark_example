@@ -1,0 +1,10 @@
+*.log
+.vagrant/
+spark-warehouse/
+venv/
+*.csv
+*.png
+Miniconda*.sh
+spark*.tgz
+.idea/
+__pycache__/

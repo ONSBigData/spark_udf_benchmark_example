@@ -1,0 +1,11 @@
+#!/usr/bin/env bash
+
+export PATH=$PATH:/usr/local/spark/bin
+export SPARK_LOCAL_IP=192.168.33.10
+
+. /home/vagrant/miniconda/etc/profile.d/conda.sh
+
+conda activate
+
+# Plot without needing a GUI
+export MPLBACKEND=Agg
